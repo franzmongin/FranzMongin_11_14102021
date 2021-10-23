@@ -1,14 +1,14 @@
 import './App.css';
-import Dropdown from './components/Dropdown';
-import Location from './components/Location'
-import Tag from './components/Tag'
+import Dropdown from './components/Dropdown/Dropdown';
+import Location from './components/Location/Location'
+import Tag from './components/Tag/Tag'
 
 function App() {
   return (
     <div className="App">
       <Location/>
       <Tag/>
-      <Dropdown dropDownWidth="half"/>
+      <Dropdown dropdownWidth='half'/>
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import './Tag.css'
 
 
-const Coucou = styled.div`
+const TagContainer = styled.div`
     width:150px;
     height:25px;
     background: #FF6060;
@@ -19,9 +20,9 @@ const Coucou = styled.div`
 class Tag extends Component {
   render() {
     return (
-    <Coucou>
+    <div className="tag">
         <span>coucou</span>
-    </Coucou>
+    </div>
     )
     
   }

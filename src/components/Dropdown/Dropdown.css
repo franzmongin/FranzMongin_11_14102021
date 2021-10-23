@@ -1,0 +1,27 @@
+.dropdown-half{
+    width:50%;
+}
+.dropdown-heading{
+    height:25px;
+    background: #FF6060;
+    border-radius:10px;
+    display:flex;
+    
+}
+.dropdown-heading span{
+        color:white;
+        font-size:14px;
+        font-weight:500;
+}
+.dropdown-content{
+    height:25px;
+    background: #F7F7F7;
+    border-radius:10px;
+    display:flex;
+    
+}
+.dropdown-content span{
+        color:white;
+        font-size:14px;
+        font-weight:500;
+}
