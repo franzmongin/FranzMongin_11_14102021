@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <Location/>
       <Tag/>
-      <Dropdown dropdownWidth='half'/>
+      <Dropdown heading='Equipements' dropdownWidth='half'/>
+      <Dropdown heading='Fiabilité'/>
     </div>
   );
 }

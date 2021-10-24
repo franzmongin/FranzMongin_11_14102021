@@ -6,12 +6,20 @@
     background: #FF6060;
     border-radius:10px;
     display:flex;
+        justify-content: space-between;
+        padding: 0 12px;
     
+}
+.dropdown-half .dropdown-heading span{
+    font-size: 18px;
 }
 .dropdown-heading span{
         color:white;
-        font-size:14px;
+        font-size:24px;
         font-weight:500;
+}
+.dropdown-heading .up-arrow{
+    
 }
 .dropdown-content{
     height:25px;
