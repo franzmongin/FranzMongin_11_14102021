@@ -2,5 +2,23 @@
     width:340px;
     height:340px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    background-color: #FF6060
+    background-color: #FF6060;
+    display:flex;
+    align-items: flex-end;
+    /* flex-basis: 30%; */
+        /* margin: 0 1%; */
+    background-size: cover;
+    /* flex-basis:30%; */
+    /* flex-basis:30%; */
+    
+}
+.location-title{
+    color:white;
+    
+}
+@media screen and (max-width:787px){
+    .location-container{
+        width:335px;
+        height:225px;
+    }
 }

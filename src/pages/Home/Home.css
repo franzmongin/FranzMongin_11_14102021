@@ -1,0 +1,40 @@
+.banner{
+    height:223px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('./banner-image.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin-bottom:43px;
+
+}
+.banner .layer{
+    font-size: 48px;
+    color:white;
+    display: flex;
+    align-items: center;
+    
+}
+@media screen and (max-width:764px) {
+    .banner{
+        height:111px;
+    }
+    .banner .layer{
+        font-size: 24px;
+    }
+}
+.locations-list{
+    background-color: #F7F7F7;
+    /* padding: 0 50px; */
+    padding-top:56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 50px;
+    column-gap:60px;
+}
+@media screen and (max-width:787px){
+    .locations-list{
+        background: white;
+    }
+}
