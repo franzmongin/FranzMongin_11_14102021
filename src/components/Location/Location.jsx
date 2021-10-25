@@ -9,7 +9,7 @@ class Location extends Component {
     super(props)
   }
   render() {
-    return <Link to={`location:${this.props.data.id}`} className="location-container" style={{ 
+    return <Link to={`location/${this.props.data.id}`} className="location-container" style={{ 
       backgroundImage: `url("${this.props.data.cover}")` 
     }}><div className="">
       <div className="location-title">

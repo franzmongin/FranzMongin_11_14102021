@@ -19,11 +19,10 @@ function App() {
       <div className="App">
         <Router>
           <Switch>
-        <Route exact path="/"><Home/></Route>
-        <Route path="/location:id"><LocationCard/></Route>
-        <Route path="/about"><About/></Route>
-        <Dropdown heading='Equipements' dropdownWidth='half'/>
-        <Dropdown heading='Fiabilité'/>
+          <Route exact path="/"><Home/></Route>
+          <Route path="/about"><About/></Route>
+          <Route path="/location/:id"render={(props) => <LocationCard {...props} />}/>
+          
         </Switch>
         </Router>
       </div>

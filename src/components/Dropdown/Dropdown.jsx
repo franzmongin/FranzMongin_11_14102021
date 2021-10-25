@@ -11,7 +11,7 @@ class Dropdown extends Component {
         this.handleClickDropdown = this.handleClickDropdown.bind(this)
     }
     handleClickDropdown(){
-        this.state.openned===false? this.setState(state =>({openned:true})) : this.setState(state =>({openned:false}));
+        this.state.openned===false? this.setState({openned:true}) : this.setState({openned:false});
     }
 
   render() {
