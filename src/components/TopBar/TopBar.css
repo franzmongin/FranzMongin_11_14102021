@@ -11,7 +11,11 @@
 .top-bar ul{
     list-style-type: none;
     display:flex;
-    column-gap: 57px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    row-gap: 14px;
+    column-gap: 15px;
+
 }
 .top-bar ul a{
     text-decoration: none;
@@ -23,14 +27,26 @@ nav{
     display:flex;
     align-items: center;
 }
+.page-link{
+    text-transform: capitalize;
+    
+}
+.page-link a{
+    color:red;
+}
 @media screen and (max-width:764px) {
     .top-bar{
         font-size: 12px;
+        padding-bottom: 16px;
     }
     .top-bar img{
         width: 145px;
     }
     .top-bar ul{
-        column-gap: 20px;
+        
+    }
+    .top-bar ul a{
+        text-transform: uppercase;
     }
 }
+

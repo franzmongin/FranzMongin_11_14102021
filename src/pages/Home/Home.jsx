@@ -3,6 +3,7 @@ import TopBar from '../../components/TopBar/TopBar';
 import './Home.css'
 import data from '../../data/data.js'
 import Location from '../../components/Location/Location';
+import Footer from '../../components/Footer/Footer';
 
 
 class Home extends Component {
@@ -12,22 +13,22 @@ class Home extends Component {
     console.log(data)
     console.log(this.state.locations.data)
   }
-  componentDidMount(){
-    console.log(this.state.locations.data)
-  }
   render() {
-    // const list = this.state.locations.map(e => <Location/>)
-    return <div className="homepage">
+    return <><div className="homepage page">
         <TopBar/>
         <div className="banner">
-             <span className="layer">Chez vous, partout et ailleurs</span>
+             <div className="layer"><span className="layer-1st-part">Chez vous,</span><span className="layer-2nd-part">partout et ailleurs</span></div>
         </div>
-        <div className="locations-list">
+        <div className="locations-container">
+          <div className="locations-list">
           {this.state.locations.data.map((e)=>{
             return <Location data={e} key={`location-${e.id}`}/>
           })}
+          </div>
         </div>
+        
     </div>
+    <Footer/></>
 
   }
 }

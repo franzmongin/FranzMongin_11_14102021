@@ -24,7 +24,6 @@ class Dropdown extends Component {
                     :
                     <img className="down-arrow" src={downArrow} alt="down arrow" width="20px"/>}</div>
                 {this.state.openned === true ?  <div className="dropdown-content"></div>: ''}
-               
             </div>
         )
   }

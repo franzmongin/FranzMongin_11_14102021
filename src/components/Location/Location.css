@@ -5,15 +5,16 @@
     background-color: #FF6060;
     display:flex;
     align-items: flex-end;
-    /* flex-basis: 30%; */
-        /* margin: 0 1%; */
     background-size: cover;
-    /* flex-basis:30%; */
-    /* flex-basis:30%; */
-    
+    border-radius: 10px;
+    margin:auto;
+    padding:20px;
+    box-sizing: border-box;
+
 }
 .location-title{
     color:white;
+    font-size:18px;
     
 }
 @media screen and (max-width:787px){

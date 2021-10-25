@@ -17,27 +17,18 @@ class TopBar extends Component {
 
     }
   render() {
-      
     return <div className="top-bar">
         <img src={logo} alt="kasa" />
         <nav>
-            {this.state.pathName === '/'?<ul>
+            <ul>
                 
-                <li className='current-page-link'>
+                <li className={`page-link ${this.state.pathName === '/' ? 'current-page-link': ''}`}>
                     <Link to="/">Accueil</Link>
                 </li>
-                <li>
+                <li className={`page-link ${this.state.pathName === '/about' ? 'current-page-link': ''}`}>
                     <Link to="/about">A propos</Link>
                 </li>
-            </ul>: <ul>
-                
-                <li >
-                    <Link to="/">Accueil</Link>
-                </li>
-                <li className='current-page-link'>
-                    <Link to="/">A propos</Link>
-                </li>
-            </ul>}
+            </ul>
             
         </nav>
         
