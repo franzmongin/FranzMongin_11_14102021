@@ -1,14 +1,21 @@
-.tag{
-    width:150px;
-    height:25px;
-    background: #FF6060;
-    border-radius:10px;
-    display:flex;
-    justify-content:center;
-    
+.tag {
+  padding-right: 25px;
+  padding-left: 25px;
+  height: 25px;
+  background: #ff6060;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.tag span{
-        color:white;
-        font-size:14px;
-        font-weight:500;
-    }
+.tag span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .tag {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}

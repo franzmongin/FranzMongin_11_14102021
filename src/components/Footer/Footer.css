@@ -1,14 +1,19 @@
-.footer{
-    height:209px;
-    display:flex;
-    flex-direction: column;
-    background-color: #000000;
-    color:white;
-    margin-top:30px;
-    justify-content: center;
-    align-items: center;
+.footer {
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  color: white;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
 }
-.footer img{
-    width:122px;
-    margin-bottom: 30px;
+.footer img {
+  width: 122px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .copyright {
+    font-size: 12px;
+  }
 }

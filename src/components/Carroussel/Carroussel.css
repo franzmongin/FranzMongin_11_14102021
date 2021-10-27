@@ -1,8 +1,31 @@
-.carroussel{
-    display:flex;
-    width:100%;
-    height:415px;
-    background-size:cover;
-    background-position:center;
-    justify-content: space-between;
+.carroussel {
+  display: flex;
+  width: 100%;
+  height: 415px;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+  border-radius: 25px;
+}
+.left-arrow {
+  margin-left: 30px;
+}
+.right-arrow {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .carroussel {
+    height: 255px;
+  }
+  .right-arrow,
+  .left-arrow {
+    width: 12px;
+  }
+  .right-arrow {
+    margin-right: 10px;
+  }
+  .left-arrow {
+    margin-left: 10px;
+  }
 }

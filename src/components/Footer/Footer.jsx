@@ -14,7 +14,7 @@ class Footer extends Component {
       
     return <div className="footer">
         <img src={logo} alt="" />
-        <div>© 2020 Kasa. All rights reserved</div>
+        <div className="copyright">© 2020 Kasa. All rights reserved</div>
     </div>
 
   }
