@@ -7,6 +7,8 @@
   margin-top: 30px;
   justify-content: center;
   align-items: center;
+  position: relative;
+  bottom: 0;
 }
 .footer img {
   width: 122px;

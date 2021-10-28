@@ -1,4 +1,22 @@
+.about-page {
+}
 .dropdown {
   margin-bottom: 20px;
 }
-
+.banner-about {
+  border-radius: 25px;
+  height: 223px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.about-page .dropdown-heading span {
+}
+.about-page .dropdown {
+  max-width: 1023px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.about-page .footer {
+  margin-top: 30px;
+}

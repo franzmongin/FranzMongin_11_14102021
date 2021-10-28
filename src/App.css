@@ -1,12 +1,12 @@
-.App{
-    font-family: Montserrat;
-    
+.App {
+  font-family: Montserrat;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.page{
-        padding:0 3%;
-max-width: 1440px;
-    margin:auto;
+.page {
+  padding: 0 3%;
+  max-width: 1440px;
+  margin: auto;
+  min-height: calc(100vh - 209px);
 }

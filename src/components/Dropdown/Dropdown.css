@@ -61,4 +61,7 @@
     min-height: 0;
     padding-bottom: 30px;
   }
+  .dropdown-half-desktop .dropdown-content {
+    min-height: 0;
+  }
 }
