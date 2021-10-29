@@ -5,9 +5,6 @@ import logo from './logo-footer.svg'
 
 
 class Footer extends Component {
-    constructor(props){
-        super(props)
-    }
     
   render() {
       

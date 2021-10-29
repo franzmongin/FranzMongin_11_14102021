@@ -4,7 +4,7 @@ import Location from "./components/Location/Location";
 import Tag from "./components/Tag/Tag";
 import React from "react";
 import Home from "./pages/Home/Home";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LocationCard from "./pages/LocationCard/LocationCard";
 import About from "./pages/About/About";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";

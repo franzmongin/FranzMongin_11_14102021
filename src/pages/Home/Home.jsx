@@ -9,8 +9,6 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = { locations: { data } };
-    console.log(data);
-    console.log(this.state.locations.data);
   }
   render() {
     return (
